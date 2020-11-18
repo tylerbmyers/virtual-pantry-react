@@ -1,0 +1,37 @@
+.header-component {
+  height: 70px;
+  display: flex;
+  background-color: #212121;
+  color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  .logo {
+    height: 100%;
+    width: 70px;
+    color: white;
+
+    &:hover {
+      color: #616161;
+    }
+  }
+
+  .links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .header-button {
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      color: #616161;
+    }
+  }
+}
