@@ -1,0 +1,32 @@
+.pantry-component {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+
+    .add-category-button {
+      width: 150px;
+      height: 36px;
+      margin-right: 10px;
+      background-color: black;
+      color: white;
+    }
+
+    .title {
+      font-size: 48px;
+      border-bottom: 1px solid black;
+      width: 210px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

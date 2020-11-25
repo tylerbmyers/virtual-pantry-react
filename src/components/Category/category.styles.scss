@@ -1,0 +1,13 @@
+.category-component {
+  width: 350px;
+  margin-bottom: 30px;
+
+  .category-title {
+    font-size: 32px;
+  }
+
+  .add-button {
+    display: flex;
+    justify-content: center;
+  }
+}

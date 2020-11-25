@@ -1,72 +1,28 @@
 .homepage-component {
-  background-color: #121212;
-  min-height: calc(100vh - 70px);
-  display: flex;
-  color: white;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  height: calc(100vh - 70px);
+  background-image: url('https://images.unsplash.com/photo-1590311825160-a6263b093200?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
 
-  .header-content {
+  .content {
+    margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 64px 0px 48px;
-
-    p {
-      text-align: center;
-      width: 70%;
-    }
+    padding: 80px;
   }
 
-  .card-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+  .title {
+    font-size: 108px;
+    margin-bottom: 15px;
+    color: white;
   }
 
-  .card {
-    height: 300px;
-    display: flex;
-    width: 30%;
-    transition: transform 0.2s;
-    flex-direction: column;
-    justify-content: flex-start;
+  a {
     text-decoration: none;
+  }
 
-    &:hover {
-      transform: scale(1.03);
-    }
-
-    .title {
-      background-color: #616161;
-      border-top-left-radius: 4px;
-      border-top-right-radius: 4px;
-      font-size: 24px;
-      height: 60px;
-      color: white;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin: auto;
-    }
-
-    .description {
-      background-color: #424242;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
-      font-size: 36px;
-      height: 240px;
-      width: 100%;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin: auto;
-    }
+  .homepage-button {
+    width: 150px;
+    height: 36px;
+    margin-right: 10px;
+    background-color: white;
   }
 }

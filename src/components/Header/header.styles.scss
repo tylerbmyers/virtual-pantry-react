@@ -33,5 +33,9 @@
     &:hover {
       color: #616161;
     }
+
+    &.active {
+      border-bottom: 1px solid white;
+    }
   }
 }
